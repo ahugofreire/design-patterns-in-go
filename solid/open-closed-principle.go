@@ -134,6 +134,6 @@ func main() {
 	lgSpec := AndSpecification{greenSpec, largeSpec}
 	fmt.Printf("Large green products:\n")
 	for _, v := range bf.Filter(products, lgSpec) {
-		fmt.Printf(" - %s is green\n", v.name)
+		fmt.Printf(" - %s is large and green\n", v.name)
 	}
 }
