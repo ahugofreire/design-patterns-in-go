@@ -44,10 +44,12 @@ func NewSquare(size int) *Square {
 
 func (s *Square) SetWidth(width int) {
 	s.width = width
+	s.height = width
 }
 
 func (s *Square) SetHeight(height int) {
 	s.height = height
+	s.width = height
 }
 
 func UseIt(sized Sized) {
@@ -56,6 +58,14 @@ func UseIt(sized Sized) {
 	expectedArea := 10 * width
 	actualArea := sized.GetWidth() * sized.GetHeight()
 	fmt.Print("Expected an area of ", expectedArea, ", but got ", actualArea, "\n")
+}
+
+type Square2 struct {
+	size int //width, height
+}
+
+func (s *Square2) Rectangle() Rectangle {
+	return Rectangle{s.size, s.size}
 }
 
 func main() {
