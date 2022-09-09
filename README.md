@@ -32,8 +32,9 @@
 
 <details>
   <summary><strong>BUILDER</strong></summary>
-  - O padrão Builder sugere que você extraia o código de construção do objeto para fora de sua própria classe e mova ele para objetos separados chamados builders;
+  - O padrão Builder sugere que você extraia o código de construção do objeto para fora de sua própria classe e mova ele para objetos separados chamados builders.
+
   - Ganhos:
-    - Os mesmos objetos são simples e podem ser criados em uma única chamada ao construtor;
+    - Os mesmos objetos são simples e podem ser criados em uma única chamada ao construtor.
   - [Ref](https://refactoring.guru/pt-br/design-patterns/builder)
 </details>
