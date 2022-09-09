@@ -29,3 +29,11 @@
 - Não dependa implementações, dependa de abstrações;
 - Utilizar de contratos(interfaces) para abstrair as implementações;
 </details>
+
+<details>
+  <summary><strong>BUILDER</strong></summary>
+  - O padrão Builder sugere que você extraia o código de construção do objeto para fora de sua própria classe e mova ele para objetos separados chamados builders;
+  - Ganhos:
+    - Os mesmos objetos são simples e podem ser criados em uma única chamada ao construtor;
+  - [Ref](https://refactoring.guru/pt-br/design-patterns/builder)
+</details>
