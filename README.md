@@ -37,4 +37,5 @@
   - Ganhos:
     - Os mesmos objetos são simples e podem ser criados em uma única chamada ao construtor.
   - [Ref](https://refactoring.guru/pt-br/design-patterns/builder)
+  - Builder Facets
 </details>
