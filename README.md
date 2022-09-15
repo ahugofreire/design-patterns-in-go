@@ -33,9 +33,19 @@
 <details>
   <summary><strong>BUILDER</strong></summary>
   - O padrão Builder sugere que você extraia o código de construção do objeto para fora de sua própria classe e mova ele para objetos separados chamados builders.
+  - Trata da criação de objetos complexos.
+  - O objeto final pode variar de acordo com a necessidade.
 
-  - Ganhos:
+
+  - BOM:
     - Os mesmos objetos são simples e podem ser criados em uma única chamada ao construtor.
+    - Permite a criação de um objeto em etapas.
+    - Separa criação de utilização.
+    - O cliente não precisa criar objetos diretament
+    - O mesmo código pode construir objetos diferentes
+    - Ajuda na aplicação dos princípios SRP e OCP
+  - RUIM:
+    - O código final pode se tornar muito complexo
   - [Ref](https://refactoring.guru/pt-br/design-patterns/builder)
   - Builder Facets
 </details>
