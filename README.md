@@ -49,3 +49,12 @@
   - [Ref](https://refactoring.guru/pt-br/design-patterns/builder)
   - Builder Facets
 </details>
+<details>
+  <summary><strong>Factory</strong></summary>
+  - Factory são simplesmente operacões que criam objetos.
+  - O FactoryMethod é um padrão de projeto de criação (lida com a criação de objetos).
+  - Oculta a lógica de instanciação de código cliente. O método fábrica será responsável 
+  por instanciar as classes desejadas.
+  - Dá flexibilidade ao código client permitindo a criação de novas factories sem a necessidade
+   de alerar o código já escrito(OCP)
+</details>
