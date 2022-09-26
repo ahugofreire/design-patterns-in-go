@@ -58,3 +58,7 @@
   - Dá flexibilidade ao código client permitindo a criação de novas factories sem a necessidade
    de alerar o código já escrito(OCP)
 </details>
+<details>
+  <summary><strong>Prototype</strong></summary>
+  - 
+</details>
