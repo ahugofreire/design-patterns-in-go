@@ -36,7 +36,6 @@
   - Trata da criação de objetos complexos.
   - O objeto final pode variar de acordo com a necessidade.
 
-
   - BOM:
     - Os mesmos objetos são simples e podem ser criados em uma única chamada ao construtor.
     - Permite a criação de um objeto em etapas.
@@ -60,5 +59,6 @@
 </details>
 <details>
   <summary><strong>Prototype</strong></summary>
-  - 
+  - Especificar os tipos de objetos a serem criados usando uma instância-protótipo e
+    criar novos objetos pelo cópia desse protótipo.
 </details>
