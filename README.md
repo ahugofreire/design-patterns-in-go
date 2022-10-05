@@ -62,3 +62,9 @@
   - Especificar os tipos de objetos a serem criados usando uma instância-protótipo e
     criar novos objetos pelo cópia desse protótipo.
 </details>
+<details>
+  <summary><strong>Singleton</strong></summary>
+  - Garantir que uma classe tenha apenas uma única instância.
+  - Fornece um ponto de acesso global para aquela instância.
+  - Utilize o padrão Singleton quando você precisa de um controle mais estrito sobre as variáveis globais.
+</details>
