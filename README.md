@@ -50,6 +50,7 @@
 </details>
 <details>
   <summary><strong>Factory</strong></summary>
+  
   - Factory são simplesmente operacões que criam objetos.
   - O FactoryMethod é um padrão de projeto de criação (lida com a criação de objetos).
   - Oculta a lógica de instanciação de código cliente. O método fábrica será responsável 
