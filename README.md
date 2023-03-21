@@ -50,6 +50,7 @@
 </details>
 <details>
   <summary><strong>Factory</strong></summary>
+  
   - Factory são simplesmente operacões que criam objetos.
   - O FactoryMethod é um padrão de projeto de criação (lida com a criação de objetos).
   - Oculta a lógica de instanciação de código cliente. O método fábrica será responsável 
@@ -59,12 +60,17 @@
 </details>
 <details>
   <summary><strong>Prototype</strong></summary>
+  
   - Especificar os tipos de objetos a serem criados usando uma instância-protótipo e
     criar novos objetos pelo cópia desse protótipo.
 </details>
+
 <details>
-  <summary><strong>Singleton</strong></summary>
-  - Garantir que uma classe tenha apenas uma única instância.
-  - Fornece um ponto de acesso global para aquela instância.
-  - Utilize o padrão Singleton quando você precisa de um controle mais estrito sobre as variáveis globais.
+<summary><strong>Singleton</strong></summary>
+
+- Garantir que uma classe tenha apenas uma única instância;
+
+- Fornece um ponto de acesso global para aquela instância;
+
+- Utilize o padrão Singleton quando você precisa de um controle mais estrito sobre as variáveis globais;
 </details>
